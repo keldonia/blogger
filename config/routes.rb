@@ -4,4 +4,6 @@ Rails.application.routes.draw do
   end
 
   root to: 'articles#index'
+
+  resources :tags
 end
